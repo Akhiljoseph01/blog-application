@@ -19,8 +19,8 @@
 </br>
 
 {% if post.header_image %}
-<img src="{{ post.header_image.url }}">
-{% endif %}
+        <img src="{{ post.header_image.url }}" alt="{{ post.title }}" style="width: 300px; height: auto;">
+    {% endif %}
 
 <br/><br/>
 
